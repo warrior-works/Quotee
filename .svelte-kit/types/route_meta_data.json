@@ -1,0 +1,9 @@
+{
+	"/": [],
+	"/api/parse-quote": [
+		"src/routes/api/parse-quote/+server.ts"
+	],
+	"/api/track": [
+		"src/routes/api/track/+server.ts"
+	]
+}
