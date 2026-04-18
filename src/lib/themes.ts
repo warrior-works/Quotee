@@ -1,6 +1,14 @@
 export type QuoteStyle = 'brutalist' | 'startup' | 'chirp' | 'editorial' | 'breeze' | 'aura' | 'paper' | 'noir' | 'glass' | 'claude-code';
 export type Alignment = 'left' | 'center' | 'right';
-export type FontFamily = 'playfair' | 'old-standard' | 'geist' | 'inter'|'mono'|'instrument-serif';
+export type FontFamily =
+  | 'playfair'
+  | 'old-standard'
+  | 'geist'
+  | 'inter'
+  | 'mono'
+  | 'instrument-serif'
+  | 'ubuntu'
+  | 'bricolage';
 export type Brand =
   | 'vercel'
   | 'peerlist'
@@ -51,6 +59,14 @@ export const FONTS: Record<FontFamily, { name: string; css: string }> = {
   'inter': {
     name: 'Inter',
     css: '"Inter", sans-serif',
+  },
+  'ubuntu': {
+    name: 'Ubuntu',
+    css: '"Ubuntu", sans-serif',
+  },
+  'bricolage': {
+    name: 'Bricolage Grotesque',
+    css: '"Bricolage Grotesque", sans-serif',
   },
    'playfair': {
     name: 'Playfair Display',
