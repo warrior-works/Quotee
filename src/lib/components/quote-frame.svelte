@@ -163,12 +163,8 @@
     {@render quoteContent()}
   </div>
 
-  <span
-    class="pointer-events-none absolute right-2 bottom-2 z-20 inline-flex items-center gap-1 opacity-90"
-    aria-hidden="true"
-  >
-    <QuoteeLogoMark class="h-3.5 w-3.5" />
-    <span class="font-instrument-serif text-[10px] leading-none text-white">Quotee</span>
+  <span class="pointer-events-none absolute right-2 bottom-2 z-20" aria-hidden="true">
+    <QuoteeLogoMark class="h-3.5 w-3.5 opacity-90" />
   </span>
 </div>
 
