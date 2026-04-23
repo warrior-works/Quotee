@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: 'Quotee',
-  title: 'Quotee - Quote Maker, Quote Creator and Shareable Quote Image Tool',
+  title: 'Quotee - Create quotes that hit.',
   shortDescription:
     'Quotee is a free quote maker to create beautiful quote images, quote snapshots, and social-ready quote posts in seconds.',
   description:
