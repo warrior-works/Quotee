@@ -85,14 +85,6 @@
   $: isBrandTheme = Boolean($selectedTheme?.brand)
 </script>
 
-<svelte:head>
-  <title>Quotee — Create quotes that hit.</title>
-  <meta
-    name="description"
-    content="Create beautiful, shareable images of your favorite quotes. Choose from elegant themes."
-  />
-</svelte:head>
-
 <div class="grid w-full min-h-screen grid-rows-[auto_1fr_auto]">
   <!-- Header -->
   <header
@@ -161,6 +153,11 @@
       </ResizableFrame>
     </div>
   </main>
+
+  <footer class="px-6 pb-24 text-center text-xs leading-relaxed text-ink-600">
+    Quotee is a free quote maker and quote creator for crafting beautiful quote images, quote
+    snapshots, and social-ready quote posts.
+  </footer>
 
   <!-- Bottom Controls Bar -->
   <div

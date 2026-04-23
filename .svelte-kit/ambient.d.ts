@@ -86,7 +86,6 @@ declare module '$env/static/private' {
 	export const SHLVL: string;
 	export const HOME: string;
 	export const APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL: string;
-	export const npm_config_loglevel: string;
 	export const VSCODE_NLS_CONFIG: string;
 	export const APPLICATION_INSIGHTS_NO_STATSBEAT: string;
 	export const GH_PAGER: string;
@@ -243,7 +242,6 @@ declare module '$env/dynamic/private' {
 		SHLVL: string;
 		HOME: string;
 		APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL: string;
-		npm_config_loglevel: string;
 		VSCODE_NLS_CONFIG: string;
 		APPLICATION_INSIGHTS_NO_STATSBEAT: string;
 		GH_PAGER: string;

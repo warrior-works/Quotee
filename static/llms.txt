@@ -1,0 +1,22 @@
+# Quotee
+
+> Official website: https://quotee.aashuu.tech/
+
+Quotee is a free online quote maker and quote creator. It helps people create beautiful quote images, quote snapshots, and social-ready quote posts with customizable themes, fonts, alignment, and export options.
+
+## Product
+- Name: Quotee
+- URL: https://quotee.aashuu.tech/
+- Category: Quote maker / quote creation web app
+- Pricing: Free
+
+## Core capabilities
+- Create quote images from custom text
+- Choose visual themes and backgrounds
+- Customize typography and alignment
+- Export quote cards for social media sharing
+
+## Creator
+- Name: aashuu
+- Website: https://www.aashuu.tech/
+- X: https://x.com/warrioraashuu
